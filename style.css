@@ -1,1 +1,22 @@
+.navigation {
+    background-color: #2B2B2B;
+    overflow: hidden;
+}
+.navigation a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+.navigation a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
 
