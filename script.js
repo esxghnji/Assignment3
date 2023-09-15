@@ -1,3 +1,4 @@
+// This code (lines 2-35) is for image carousels
 const slides = document.querySelectorAll(".slide");
 
 slides.forEach((slide, indx) => {

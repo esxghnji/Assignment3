@@ -4,7 +4,7 @@
 }
 .navigation a {
     float: left;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -12,11 +12,11 @@
 }
 .navigation a:hover {
     background-color: #dddddd;
-    color: black;
+    color: #000000;
 }
 .navigation a.active {
     background-color: #04AA6D;
-    color: white;
+    color: #FFFFFF;
 }
 .slider {
     width: 100%;
@@ -46,7 +46,7 @@
     border-radius: 50%;
     z-index: 10px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #FFFFFF;
     font-size: 18px;
 }
 .btn:active {
