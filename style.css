@@ -62,5 +62,8 @@
 }
 
 .end {
-    align-items: ;
+    display: block;
+    margin-left: auto;
 }
+
+/* is overflow :hidden supposed to be a comment */
