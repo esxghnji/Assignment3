@@ -1,4 +1,5 @@
-// This code (lines 2-28) is for image carouselslet slideIndex = 1;
+// This code (lines 2-29) is for image carousels
+let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -26,3 +27,25 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+
+function check(checked = true) {
+  const checkboxes = document.querySelectorAll('input[name="game"]');
+  checkboxes.forEach((checkbox) => {
+    checkbox.checked = checked;
+  });
+}
+
+function checkAll() {
+  check();
+  this.onclick = uncheckAll;
+}
+
+function uncheckAll() {
+  check(false);
+  this.onclick = checkAll;
+}
+
+const btn = document.querySelector('#checkoutAll');
+btn.onclick = checkAll;
