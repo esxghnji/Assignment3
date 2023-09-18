@@ -1,35 +1,28 @@
-// This code (lines 2-35) is for image carousels
-const slides = document.querySelectorAll(".slide");
+// This code (lines 2-28) is for image carouselslet slideIndex = 1;
+showSlides(slideIndex);
 
-slides.forEach((slide, indx) => {
-  slide.style.transform = `translateX(${indx * 100}%)`;
-});
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-let curSlide = 0;
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-const nextSlide = document.querySelector(".btn-next");
-
-nextSlide.addEventListener("click", function () {
-     curSlide++;
-
-  slides.forEach((slide, indx) => {
-    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
-  });
-});
-
-const nextSlide = document.querySelector(".btn-next");
-
-let curSlide = 0;
-let maxSlide = slides.length - 1;
-
-nextSlide.addEventListener("click", function () {
-  if (curSlide === maxSlide) {
-    curSlide = 0;
-  } else {
-    curSlide++;
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
-
-  slides.forEach((slide, indx) => {
-    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
-  });
-});
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
