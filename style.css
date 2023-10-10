@@ -3,11 +3,14 @@
 h1 {
   color: #FFFFFF;
 }
+h2 {
+  color: #FFFFFF;
+}
 h3 {
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 h4 {
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 p {
   color: #FFFFFF;
@@ -15,8 +18,16 @@ p {
 ul {
   color: #FFFFFF;
 }
+td {
+  color: #FFFFFF
+}
 .TechnoJumpUserguide {
   border: 2px outset #FFFFFF;
+}
+.linkbutton {
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #333333;
 }
 
 /* Top toolbar */
@@ -78,7 +89,7 @@ ul {
   background-color: rgba(0,0,0,0.8);
 }
 .captiontext {
-  color: #000000;
+  color: #FFFFFF;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -87,7 +98,7 @@ ul {
   text-align: center;
 }
 .numbertext {
-  color: #000000;
+  color: #FFFFFF;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -113,4 +124,19 @@ ul {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Checkout Page */
+.checkout {
+  display: flex;
+}
+
+.receipt {
+  background-color: #dddddd;
+  margin-left: 200px;
+  border: #000000 outset 5px;
+  width: 500px;
+  height: 250px;
+
+
 }
