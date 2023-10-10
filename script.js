@@ -36,16 +36,15 @@ function check(checked = true) {
     checkbox.checked = checked;
   });
 }
-
 function checkAll() {
   check();
   this.onclick = uncheckAll;
 }
-
 function uncheckAll() {
   check(false);
   this.onclick = checkAll;
 }
-
 const checkoutAll = document.querySelector('#checkoutAll');
 checkoutAll.onclick = checkAll;
+
+
