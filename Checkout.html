@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body style="background-color:#443f3f;">
+        <script src="script.js"></script>
         <!-- links for other pages -->
         <div class="navigation">
             <a href="Homepage.html">Home</a>
@@ -19,29 +20,26 @@
         <h2>Make your order here below:</h2>
         <br>
         <div class="checkout">
-        <table>
-            <tr>
-                <td>Techno Jump</td>
-                <td><input type="checkbox" id="forTechnoJump" name="game" value="yesTJ"></td>
-            </tr>
-            <tr>
-                <td>Cyber Survivor</td>
-                <td><input type="checkbox" id="forCyberSurvivor" name="game" value="yesCS"></td>
-            </tr>
-            <tr>
-                <td>Goblin Slayer</td>
-                <td><input type="checkbox" id="forGoblinSlayer" name="game" value="yesGS"></td>
-            </tr>
-        </table>
-        
-        <div class="receipt">
-            <p id="slot one">
+            <form>    
+                <input type="checkbox" id="TechnoJumpCheck" name="TechnoJumpCheck">
+                <label for="TechnoJumpCheck"> TechnoJump</label><br>
+                <input type="checkbox" id="CyberSurvivorCheck" name="CyberSurvivorCheck">
+                <label for="CyberSurvivorCheck"> Cyber Survivor</label><br>
+                <input type="checkbox" id="GoblinSlayerCheck" name="GoblinSlayerCheck">
+                <label for="GoblinSlayerCheck"> Goblin Slayer</label><br>
+                <input type="text" id="Address" name="AddressInput"</input><br>
+                <label for="Address"> Address</label><br>
+                <input type="text" id="CreditCard" name="Creditcardnumber"</input><br>
+                <label for="CreditCard"> Credit Card Number</label><br>
+                <input type="text" id="CreditCard2" name="Creditcardpin"</input><br>
+                <label for="CreditCard2"> PIN</label><br>
+                <button id="CheckoutButton">Submit</button>
+                </form
         </div>
-        </div>
-        
         <br>
-        <button id="checkoutAll">Select/Unselect all?</button>
-        <button id="checkoutButton">Purchase games</button>
-        <script src="script.js"></script>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Success! Thank you for purchasing our games!
+        </div>
     </body>
 </html>
