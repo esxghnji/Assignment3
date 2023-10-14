@@ -160,19 +160,42 @@ td {
   justify-content: center;
 }
 
-.CybSur{
-  width: 400px;
-  height: 300px;
+.CybSur p{
+  width: 37%;
+  height: 37%;
   float: left;
   font-size: 40px;
   font-family: sans-serif;
 }
 
-.CybSurRight{
-  width: 400px;
-  height: 300px;
-  text-align: right;
+.CybSur video{
+  width: 37%;
+  height: 37%;
+  float: left;
+}
+
+.CybSur img{
+  width: 37%;
+  height: 37%;
+  float: left;
+}
+
+.CybSurRight p{
+  width: 37%;
+  height: 37%;
   float: right;
   font-family: sans-serif;
   font-size: 40px;
+}
+
+.CybSurRight video{
+  width: 37%;
+  height: 37%;
+  float: right;
+}
+
+.CybSurRight img{
+  width: 37%;
+  height: 37%;
+  float: right;
 }
