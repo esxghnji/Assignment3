@@ -41,6 +41,7 @@ td {
     color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
+    padding-top: 17px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -56,7 +57,9 @@ td {
     display: block;
     margin-left: auto;
 }
-
+.navigation img{
+  padding-right: 10px;
+}
 
 /* Slideshow */
 * {box-sizing:border-box}
@@ -98,15 +101,17 @@ td {
   width: 100%;
   text-align: center;
 }
-.numbertext {
+#captiontextdiff {
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
-.numbertextdiff {
-  color: #000000;
+.numbertext {
+  color: #FFFFFF;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -124,6 +129,10 @@ td {
 }
 .active, .dot:hover {
   background-color: #717171;
+}
+.SliderImg{
+  width: 100%;
+  height: 650px;
 }
 
 /* Checkout Page */
@@ -205,7 +214,26 @@ td {
   width: 300px;
 }
 
-.SliderImg{
-  width: 100%;
-  height: 650px;
+#CybSurH1{
+  font-size: 80px;
+  font-family: Tahoma;
+  text-align: center;
+}
+
+#CybSurH3{
+  font-size: 30px;
+  font-family: monospace;
+  text-align: center;
+}
+
+#CybSurP{
+  font-size: 20px;
+  font-family: 'Lucida Sans';
+  text-align: center;
+}
+
+#CybSurH2{
+  font-size: 60px;
+  font-family: monospace;
+  text-align: center;
 }
