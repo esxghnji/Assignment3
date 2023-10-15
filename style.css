@@ -102,7 +102,7 @@ td {
   text-align: center;
 }
 #captiontextdiff {
-  color: #FFFFFF;
+  color: #000000;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -214,6 +214,8 @@ td {
   width: 300px;
 }
 
+
+
 #CybSurH1{
   font-size: 80px;
   font-family: Tahoma;
@@ -236,4 +238,20 @@ td {
   font-size: 60px;
   font-family: monospace;
   text-align: center;
+}
+
+#CybSur2Checkout{
+  text-align: center;
+  font-family: 'Times New Roman';
+  padding: 10px;
+  background-color: #04AA6D;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.2s ease;
+  font-size: 20px;
+}
+
+#CybSur2Checkout:hover{
+  background-color: #006f46;
 }
