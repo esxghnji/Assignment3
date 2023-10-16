@@ -168,6 +168,11 @@ label {
 }
 
 /* The alert message box */
+.nope {
+  padding: 20px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  margin-bottom: 15px;}
 .alert {
   padding: 20px;
   background-color: rgb(98, 255, 0);

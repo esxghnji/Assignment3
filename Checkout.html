@@ -5,8 +5,33 @@
         <title>GamersIRL Checkout</title>
         <link rel="stylesheet" href="style.css"/>
     </head>
-    <body style="background-color:#443f3f;" onload="receipt.style.display='none'">
-        <script src="script.js"></script>
+    <body style="background-color:#443f3f;" onload="hide()">
+        <script>
+            function submit() {
+                if (document.getElementById("Address").value != "") {
+                    if (document.getElementById("CreditCard").value != "") {
+                        if (document.getElementById("CreditCard2").value != "") {
+                            document.getElementById("receipt").style.display = "initial";
+                            document.getElementById("fail").style.display = "none";
+                        } else {
+                            document.getElementById("fail").style.display = "initial";
+                            document.getElementById("receipt").style.display = "none";
+                        }
+                    } else {
+                        document.getElementById("fail").style.display = "initial";
+                        document.getElementById("receipt").style.display = "none";
+                    }
+                } else {
+                    document.getElementById("fail").style.display = "initial";
+                    document.getElementById("receipt").style.display = "none";
+                }
+            }
+            function hide() {
+                document.getElementById("fail").style.display = "none";
+                document.getElementById("receipt").style.display = "none";
+            }
+            document.getElementById("fail").onload = function() {hide()};
+        </script>
         <!-- links for other pages -->
         <div class="navigation">
             <a href="Homepage.html">Home</a>
@@ -17,6 +42,7 @@
             <img src="croppedlogo.png" alt="" class="end" height="50" width="100">
         </div>
         <br/>
+        <h4>SPECIAL OFFERS: Each game $10. 2 for $18. 3 for $25.</h4>
         <h2>Make your order here below:</h2>
         <br/>
         <input type="checkbox" id="TechnoJumpCheck" name="TechnoJumpCheck">
@@ -44,10 +70,14 @@
         <label for="CreditCard2"> PIN</label>
         <br/>
         <br/>
-        <button id="CheckoutButton">Submit</button>
+        <button onclick="submit()">Submit</button>
         <div class="alert bottom" id="receipt">
             <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
             Success! Thank you for purchasing our games!
+        </div>
+        <div class="nope bottom" id="fail">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Please input all required fields.
         </div>
     </body>
 </html>
