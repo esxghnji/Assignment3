@@ -168,8 +168,10 @@ label {
   border: #000000 outset 5px;
   width: 500px;
   height: 250px;
-
-
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
 }
 
 /* The alert message box */
