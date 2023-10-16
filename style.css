@@ -272,3 +272,24 @@ label {
 #CybSur2Checkout:hover{
   background-color: #006f46;
 }
+
+.gstitle {
+  text-align: center;
+  font-size: x-large;
+}
+
+.gsinfo {
+  background-color: #2B2B2B;
+  height: 700px;
+  width: 86%;
+  margin-top: 50px;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  transition: 0.3s;
+  font-size: xx-large;
+}
+
+.gsinfo:hover {
+  transform: scale(1.1);
+}
