@@ -5,7 +5,7 @@
         <title>GamersIRL Checkout</title>
         <link rel="stylesheet" href="style.css"/>
     </head>
-    <body style="background-color:#443f3f;">
+    <body style="background-color:#443f3f;" onload="receipt.style.display='none'">
         <script src="script.js"></script>
         <!-- links for other pages -->
         <div class="navigation">
@@ -47,8 +47,8 @@
             <br/>
             <button id="CheckoutButton">Submit</button>
         </form>
-        <div class="alert bottom" onload="this.style.display='none'">
-            <span class="closebtn" onclick="this.parentElement.style.display='none';" onload="this.parentElement.style.display='none';">&times;</span>
+        <div class="alert bottom" id="receipt">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
             Success! Thank you for purchasing our games!
         </div>
     </body>

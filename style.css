@@ -162,13 +162,6 @@ label {
 .checkout {
   display: flex;
 }
-.receipt {
-  background-color: #dddddd;
-  margin-left: 200px;
-  border: #000000 outset 5px;
-  width: 500px;
-  height: 250px;
-}
 .bottom {
   position: fixed;
   bottom: 0;
