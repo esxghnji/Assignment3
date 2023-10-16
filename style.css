@@ -21,6 +21,9 @@ ul {
 td {
   color: #FFFFFF
 }
+label {
+  color:#FFFFFF
+}
 .TechnoJumpUserguide {
   border: 2px outset #FFFFFF;
 }
@@ -61,6 +64,25 @@ td {
   padding-right: 10px;
   width: 120px;
 }
+
+/* homepage */
+.homepagegames {
+  background-color: #2B2B2B;
+  height: 750px;
+  width: 100%px;
+  margin-top: 50px;
+  text-align: center;
+  padding: 8px;
+}
+
+.images {
+  transition: transform .3s;
+}
+
+.images:hover {
+  transform: scale(1.05);
+}
+
 
 /* Slideshow */
 * {box-sizing:border-box}
