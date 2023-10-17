@@ -84,10 +84,29 @@ label {
 }
 
 .quotes{
-  font-size: 20px;
+  font-size: 30px;
   font-style: italic;
   font-family: Cambria;
+}
+
+#homepageAboutUs h2{
+  font-family: Times New Roman;
+  font-size: 40px;
   text-align: center;
+}
+
+#homepageAboutUs p{
+  text-align: left;
+}
+
+.HomeP{
+  font-family: Trebuchet MS;
+  font-size: 20px;
+}
+
+#homepagegames img{
+  height: 400px;
+  width: 300px;
 }
 
 /* Slideshow */
@@ -163,6 +182,20 @@ label {
   width: 100%;
   height: 650px;
 }
+#ToCheckout{
+  text-align: center;
+  font-family: 'Times New Roman';
+  padding: 10px;
+  background-color: #04AA6D;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.2s ease;
+  font-size: 20px;
+}
+#ToCheckout:hover{
+  background-color: #006f46;
+}
 
 /* Checkout Page */
 .checkout {
@@ -199,6 +232,7 @@ label {
   color: black;
 }
 
+/* Cyber Survivor content */
 .CybSurCont{
   display: flex;
   align-items: center;
@@ -236,13 +270,6 @@ label {
   float: right;
   padding-left: 10px;
 }
-
-#homepagegames img{
-  height: 400px;
-  width: 300px;
-}
-
-
 
 #CybSurH1{
   font-size: 80px;
@@ -284,6 +311,7 @@ label {
   background-color: #006f46;
 }
 
+/*Goblin Slayer Content */
 .gstitle {
   text-align: center;
   font-size: x-large;
@@ -291,7 +319,7 @@ label {
 
 .gsinfo {
   background-color: #2B2B2B;
-  height: 700px;
+  height: 720px;
   width: 86%;
   margin-top: 50px;
   padding: 20px;
