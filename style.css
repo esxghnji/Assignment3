@@ -319,7 +319,7 @@ label {
 
 .gsinfo {
   background-color: #2B2B2B;
-  height: 720px;
+  height: 650px;
   width: 86%;
   margin-top: 50px;
   padding: 20px;
@@ -327,6 +327,17 @@ label {
   margin-right: 100px;
   transition: 0.3s;
   font-size: xx-large;
+  display: flex;
+  flex-direction: row
+}
+.gsvideo {
+  margin-left: -650px;
+  margin-top: 100px;
+}
+
+.gsvideo2 {
+  margin-left: -600px;
+  margin-top: 100px;
 }
 
 .gsinfo:hover {
