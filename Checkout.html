@@ -3,7 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>GamersIRL Checkout</title>
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            label{
+                font-family: Trebuchet MS;
+            font-size: 20px;
+            }
+        </style>
     </head>
     <body style="background-color:#443f3f;" onload="hide()">
         <script>
@@ -55,22 +61,22 @@
         <label for="GoblinSlayerCheck"> Goblin Slayer</label>
         <br/>
         <br/>
-        <input type="text" id="Address" name="AddressInput"</input>
+        <input type="text" id="Address" name="AddressInput"></input>
         <br/>
         <label for="Address"> Address</label>
         <br/>
         <br/>
-        <input type="text" id="CreditCard" name="Creditcardnumber"</input>
+        <input type="text" id="CreditCard" name="Creditcardnumber"></input>
         <br/>
         <label for="CreditCard"> Credit Card Number</label>
         <br/>
         <br/>
-        <input type="text" id="CreditCard2" name="Creditcardpin"</input>
+        <input type="text" id="CreditCard2" name="Creditcardpin"></input>
         <br/>
         <label for="CreditCard2"> PIN</label>
         <br/>
         <br/>
-        <button onclick="submit()">Submit</button>
+        <button onclick="submit()" class="ToCheckout" style="border: none;">Submit</button>
         <div class="alert bottom" id="receipt">
             <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
             Success! Thank you for purchasing our games!

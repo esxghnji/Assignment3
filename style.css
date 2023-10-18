@@ -182,7 +182,7 @@ label {
   width: 100%;
   height: 650px;
 }
-#ToCheckout{
+.ToCheckout{
   text-align: center;
   font-family: 'Times New Roman';
   padding: 10px;
@@ -193,7 +193,7 @@ label {
   transition: 0.2s ease;
   font-size: 20px;
 }
-#ToCheckout:hover{
+.ToCheckout:hover{
   background-color: #006f46;
 }
 
