@@ -26,6 +26,7 @@ label {
 }
 .divborder {
   border: 2px outset #FFFFFF;
+  width:auto;
 }
 .linkbutton {
   text-decoration: none;
@@ -66,6 +67,7 @@ label {
 }
 .checkoutform {
   background-color: #2B2B2B;
+  width:auto;
 }
 
 /* homepage */
