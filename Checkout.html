@@ -48,35 +48,40 @@
             <img src="croppedlogo.png" alt="" class="end" height="50" width="100">
         </div>
         <br/>
-        <h4>SPECIAL OFFERS: Each game $10. 2 for $18. 3 for $25.</h4>
-        <h2>Make your order here below:</h2>
-        <br/>
-        <input type="checkbox" id="TechnoJumpCheck" name="TechnoJumpCheck">
-        <label for="TechnoJumpCheck"> TechnoJump</label>
-        <br/>
-        <input type="checkbox" id="CyberSurvivorCheck" name="CyberSurvivorCheck">
-        <label for="CyberSurvivorCheck"> Cyber Survivor</label>
-        <br/>
-        <input type="checkbox" id="GoblinSlayerCheck" name="GoblinSlayerCheck">
-        <label for="GoblinSlayerCheck"> Goblin Slayer</label>
-        <br/>
-        <br/>
-        <input type="text" id="Address" name="AddressInput"></input>
-        <br/>
-        <label for="Address"> Address</label>
-        <br/>
-        <br/>
-        <input type="text" id="CreditCard" name="Creditcardnumber"></input>
-        <br/>
-        <label for="CreditCard"> Credit Card Number</label>
-        <br/>
-        <br/>
-        <input type="text" id="CreditCard2" name="Creditcardpin"></input>
-        <br/>
-        <label for="CreditCard2"> PIN</label>
-        <br/>
-        <br/>
-        <button onclick="submit()" class="ToCheckout" style="border: none;">Submit</button>
+        <div class="divborder">
+            <h4>Each game $10</h4>
+            <h3>GamersIRL Bundle: Buy all three games for only $20!</h4>
+        </div>
+        <div class="checkoutform">
+            <h2>Make your order here:</h2>
+            <br/>
+            <input type="checkbox" id="TechnoJumpCheck" name="TechnoJumpCheck">
+            <label for="TechnoJumpCheck"> TechnoJump</label>
+            <br/>
+            <input type="checkbox" id="CyberSurvivorCheck" name="CyberSurvivorCheck">
+            <label for="CyberSurvivorCheck"> Cyber Survivor</label>
+            <br/>
+            <input type="checkbox" id="GoblinSlayerCheck" name="GoblinSlayerCheck">
+            <label for="GoblinSlayerCheck"> Goblin Slayer</label>
+            <br/>
+            <br/>
+            <input type="text" id="Address" name="AddressInput"></input>
+            <br/>
+            <label for="Address"> Address</label>
+            <br/>
+            <br/>
+            <input type="text" id="CreditCard" name="Creditcardnumber"></input>
+            <br/>
+            <label for="CreditCard"> Credit Card Number</label>
+            <br/>
+            <br/>
+            <input type="text" id="CreditCard2" name="Creditcardpin"></input>
+            <br/>
+            <label for="CreditCard2"> PIN</label>
+            <br/>
+            <br/>
+            <button onclick="submit()" class="ToCheckout" style="border: none;">Submit</button>
+        </div>
         <div class="alert bottom" id="receipt">
             <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
             Success! Thank you for purchasing our games!

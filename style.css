@@ -24,7 +24,7 @@ td {
 label {
   color:#FFFFFF
 }
-.TechnoJumpUserguide {
+.divborder {
   border: 2px outset #FFFFFF;
 }
 .linkbutton {
@@ -63,6 +63,9 @@ label {
 .navigation img{
   padding-right: 10px;
   width: 120px;
+}
+.checkoutform {
+  background-color: #2B2B2B;
 }
 
 /* homepage */
