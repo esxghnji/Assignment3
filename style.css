@@ -28,6 +28,10 @@ label {
   border: 2px outset #FFFFFF;
   width:400px;
 }
+.divborder2 {
+  border: 2px outset #FFFFFF;
+  width:900px;
+}
 .linkbutton {
   text-decoration: none;
   padding: 0.5rem;
