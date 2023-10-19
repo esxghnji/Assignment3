@@ -321,9 +321,11 @@ label {
 }
 
 /*Goblin Slayer Content */
+
 .gstitle {
   text-align: center;
   font-size: x-large;
+  margin-top: -100px;
 }
 
 .gsinfo {
@@ -351,4 +353,8 @@ label {
 
 .gsinfo:hover {
   transform: scale(1.1);
+}
+
+.gsimages {
+  display: flex;
 }
