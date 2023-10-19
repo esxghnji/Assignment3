@@ -84,6 +84,34 @@ label {
   padding: 8px;
 }
 
+.homepageinfo {
+  background-color: #2B2B2B;
+  height: 400px;
+  width: 86%;
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.homepageinfo2 {
+  background-color: #2B2B2B;
+  height: 400px;
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.homepageinfo3 {
+  background-color: #2B2B2B;
+  height: 600px;
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+}
+
 .images {
   transition: transform .3s;
 }
