@@ -163,7 +163,7 @@ label {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -246,12 +246,12 @@ label {
 /* The alert message box */
 .nope {
   padding: 20px;
-  background-color: rgb(255, 0, 0);
-  color: white;
+  background-color: #FF0000;
+  color: #FFFFFF;
   margin-bottom: 15px;}
 .alert {
   padding: 20px;
-  background-color: rgb(98, 255, 0);
+  background-color: #62FF00;
   color: white;
   margin-bottom: 15px;
 }
